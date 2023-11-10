@@ -1,0 +1,116 @@
+*::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 130px;
+    /* background-color: aqua; */
+}
+.navbar1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 13.5px;
+    letter-spacing: 1px;
+}
+.navbar1 :hover .fa-solid{
+    transform: translateX(5px);
+    transition: transform 0.3s ease 0.2s;
+}
+.navbar{
+    height: 17vh;
+}
+.navbar-nav{
+    margin-left: 30px;
+}
+
+.icons a{
+    margin-left: 20px;
+    font-size: 20px;
+}
+#section1{
+    padding-top: 10px;
+}
+.row .card{
+    border-radius: 0;
+    border-style: none;
+    box-sizing: border-box;
+}
+.row .card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0;
+}
+#container2{
+    display: flex;
+}
+.notes{
+    padding-top: 80px;
+    line-height: 40px;
+}
+.notes a{
+    text-decoration: none;
+    margin-left: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+}
+.notes .line1{
+    margin-left: 60px;
+}
+.notes .line2{
+    margin-left: 60px;
+}
+.footer1-listitem{
+    font-size: 18px;
+}
+.footer2{
+    display: flex;
+}
+.footer2 a{
+    text-decoration: none;
+}
+.footer ul{
+    font-size: 5px;
+}
+.footer2-listitem{
+    font-size: 12px;
+}
+
+
+@media (min-height:0px){
+     header {
+        position: sticky;
+        top: -40px;
+        z-index: 1;
+    }
+}
+@media (max-width: 991px){
+    header {
+        height: 110px;
+    }
+    .navbar2{
+        margin-top: -35px;
+    }
+    .collapse{
+        margin-left: -38px;
+        margin-top: 67px;
+        background: black;
+    }
+    .icons .fa-solid{
+        display: none;
+    }
+    .notes{
+        padding: 100px;
+        text-align: center;
+    }
+    
+}
